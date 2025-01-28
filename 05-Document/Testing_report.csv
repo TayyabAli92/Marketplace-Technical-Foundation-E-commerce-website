@@ -1,0 +1,7 @@
+Test Case,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Remarks
+TC001,Verify Product Listing Page,Open the Products Page > Check if products are displayed,Products should display successfully,Products displayed successfully,Passed,Low,No Issue Found
+TC002,Validate Dynamic Product Pages,Navigate to product page > Click any product card,Open respective dynamic product detail page,Dynamic product page opened correctly,Passed,Low,Functioning as expected
+TC003,Validate API Error Handling,Disconnect API Query > Refresh the page,Show error message on the screen,Error message displayed as expected,Passed,Low,Handle errors gracefully
+TC004,Test Cart Functionality,Add items to the cart > Navigate to the cart,Cart should display all added items,Cart displayed items correctly,Passed,Medium,Tested successfully
+TC005,Perform Cross-Browser Testing,"Open website on Chrome, Firefox, Safari, Edge",Website should work seamlessly across browsers,Website worked correctly on all browsers,Passed,Low,Tested successfully
+TC006,Check Mobile Responsiveness,Inspect > Use Device Toolbar > Switch to mobile view,Content adjusts as per mobile screen size,Content displayed as expected for mobile view,Passed,Medium,Works responsively
