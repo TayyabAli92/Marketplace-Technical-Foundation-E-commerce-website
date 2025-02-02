@@ -85,4 +85,36 @@
 - **Cross-Browser Compatibility** ✅
 - **Mobile Responsiveness** ✅
 
+# Day 6 - Deployment Preparation and Staging
+
+## Deployment Information
+- **Platform**: Vercel
+- **GitHub Repository**: [Nike-Shoes-Website](https://github.com/TayyabAli92/Nike-Shoes-Fully-Functionally-website)
+- **Staging Environment URL**: [Staging](https://nike-shoes-topaz-seven.vercel.app/)
+
+## Environment Setup
+### 1. Hosting Platform Configuration
+- Chosen Platform: Vercel
+- Linked GitHub Repository with Vercel
+- Configured build settings and added environment variables for secure deployment
+
+### 2. Environment Variables Configuration
+- **.env File**:
+  - `NEXT_PUBLIC_SANITY_PROJECT_ID`: Sanity project identifier
+  - `NEXT_PUBLIC_SANITY_DATASET`: Name of the production dataset
+  - `API_KEY`: Authentication key for third-party services
+- Securely uploaded environment variables to Vercel
+
+## Staging Deployment
+- Deployed the application to the staging environment.
+- Verified that the build process was error-free and the site functioned as expected.
+
+## Performance Evaluation
+### 1. Desktop Performance
+- Analyzed rendering time, interactivity, and resource usage to ensure optimal desktop performance.
+
+### 2. Mobile Performance
+- Tested mobile navigation, page speed, and responsiveness to ensure a smooth user experience.
+
+
 Stay tuned for daily updates as we progress through the hackathon!
