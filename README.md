@@ -66,4 +66,13 @@
 - **Fetch Data** in `next.config.ts`
 - **Display Data** in the Browser
 
+## Day 4 - Building Dynamic Frontend Components
+
+### Key Components to Build
+1. **Product Listing Component** - Displays all available products with filtering and sorting options.
+2. **Product Detail Component** - Shows detailed product information, including images, price, and description.
+3. **Cart Component** - Allows users to add, remove, and view items before proceeding to checkout.
+4. **Checkout Workflow Component** - Manages the checkout process, including payment and order confirmation.
+5. **Header Component** - Provides easy navigation and accessibility across the marketplace.
+
 Stay tuned for daily updates as we progress through the hackathon!
