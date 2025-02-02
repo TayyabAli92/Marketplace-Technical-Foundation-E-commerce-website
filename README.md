@@ -19,8 +19,6 @@
    - 100% authentic and quality-assured products.
    - Ensuring customer satisfaction with no complaints.
 
-Stay tuned for daily updates as we progress through the hackathon!
-
 ## Day 2 - Frontend & Backend Requirements
 
 ### Frontend Requirements
@@ -43,5 +41,29 @@ Stay tuned for daily updates as we progress through the hackathon!
 ### Third-Party APIs
 - **Integrate essential third-party APIs** for services like shipment tracking, payment gateways, and other backend functionalities.
 - **Real-time data access**: Ensuring APIs provide up-to-date data to enhance frontend performance and user experience.
+
+## Day 3 - Setting Up Next.js and Sanity
+
+### Project Setup
+- **Create a Next.js Project**
+- **Install Sanity** for content management
+- **Generate an API Token** in Sanity
+- **Add API Token** to `.env` file
+
+### Sanity Schema Configuration
+- **Create `product.ts`** in Sanity’s Schema Folder
+- **Import the Schema** in `index.ts`
+
+### Data Import & API Integration
+- **Create a `scripts` Folder**
+- **Create `importSanityData.mjs`** to handle data import
+- **Update `package.json` Scripts** to include import functionality
+- **Install Axios** for API requests
+- **Send Data to Sanity via API**
+
+### Data Fetching & Display
+- **Create Query** to Fetch Data
+- **Fetch Data** in `next.config.ts`
+- **Display Data** in the Browser
 
 Stay tuned for daily updates as we progress through the hackathon!
